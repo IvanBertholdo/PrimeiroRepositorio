@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {
+    	background-color: #6969ad;
+        color: yellow;
+        font: normal 12pt Aral;
+    }
+    h1 {
+    	color: blue;
+    }
+    h2 {
+    	color: red;
+    }    
+</style>
+<body>
+<h1>Olá Mundo</h1>
+<h2>Olá Mundo</h2>
+<p id="acc"></p>
+<p id="ab"></p>
+<p id="a"></p>
+<p> Olá Mundo!!</p>
+<p id="nome"></p>
+
+<script>
+const x = "Aquele";
+const y = 6;
+const z = x + y;
+document.getElementById("ab").innerHTML = "Olá,mundo!";
+document.getElementById("a").innerHTML = "The value of y is: " + y;
+document.getElementById("acc").innerHTML = "The value of x is: " + x;
+//window.alert("Olá")
+//window.confirm("Está gostando?")
+const h = window.prompt("Qual o seu nome?")
+if (h === "Ivan"){
+document.getElementById("nome").innerHTML = "Seu nome é " + h;
+} else {
+document.getElementById("nome").innerHTML = "Seu nome não é Ivan";
+}
+var a = typeof 6
+
+</script>
+</body>
+</head>
+</html>
